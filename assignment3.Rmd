@@ -37,11 +37,13 @@ The treatments were:
 
 # (10 marks)
 
-**Why is it in your best interest to bid your true value in a second price sealed bid auction?**
+**In words, why is it in your best interest to bid your true value in a second price sealed bid auction?**
+
 
 # (10 marks)
 
-**Why is it in your best interest to ask your forgone value when selling at an unknown reserve price?**
+**In words, why is it in your best interest to ask your forgone value when selling at an unknown reserve price?**
+
 
 # (0 marks)
 
@@ -53,11 +55,12 @@ first_plot
 
 # (10 marks)
 
-**In general, what do boxplots show us?  In this case, what do the boxplots show us about the bidding behavior across treatments?**
+**In general, what do boxplots show us? Do boxplots represent robust statistical measures?  In this case, what do the boxplots show us about the bidding behavior across treatments?**
+
 
 # (10 marks)
 
-**Create barcharts for the beliefs about winning the mug (variable prob), faceting the data by variables `strategy` and `size`. Hint: use functions geom_bar and facet_grid.**
+**Create barcharts for the beliefs about winning the mug (variable prob), faceting the data by variables `strategy` and `size`. Hint: if using R, use functions geom_bar and facet_grid.**
 
 ```{r second_chunk}
 #second_plot
@@ -67,6 +70,8 @@ first_plot
 # (10 marks)
 
 **In general, what do barcharts tell us? Specifically in this case, what do the barcharts tell us about beliefs of winning the mug with regards to the treatments?**
+
+
 
 # (10 marks)
 
