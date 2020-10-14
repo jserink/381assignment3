@@ -39,15 +39,9 @@ The treatments were:
 
 **Why is it in your best interest to bid your true value in a second price sealed bid auction?**
 
-write your answer here.
-
-
 # (10 marks)
 
 **Why is it in your best interest to ask your forgone value when selling at an unknown reserve price?**
-
-write your answer here.
-
 
 # (0 marks)
 
@@ -61,8 +55,6 @@ first_plot
 
 **In general, what do boxplots show us?  In this case, what do the boxplots show us about the bidding behavior across treatments?**
 
-write your answer here.
-
 # (10 marks)
 
 **Create barcharts for the beliefs about winning the mug (variable prob), faceting the data by variables `strategy` and `size`. Hint: use functions geom_bar and facet_grid.**
@@ -71,9 +63,6 @@ write your answer here.
 
 **In general, what do barcharts tell us? Specifically in this case, what do the barcharts tell us about beliefs of winning the mug with regards to the treatments?**
 
-write your answer here.
-
-
 # (10 marks)
 
 **Create boxplots for clarity of instructions, partitioning the data by the variables `strategy` and `size`.**
@@ -81,8 +70,6 @@ write your answer here.
 # (10 marks)
 
 **What do you see above?**
-
-write your answer here.
 
 # (10 marks)
 
@@ -96,4 +83,4 @@ write your answer here.
 
 **What do you see above?**
 
-write your answer here.
+
