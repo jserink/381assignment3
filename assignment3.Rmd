@@ -1,0 +1,99 @@
+---
+title: "Assignment 3"
+author: "name and student ID here"
+date: "13/10/2020"
+output: 
+  html_document:
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source("assignment3.R")
+```
+
+Students must abide by  [UVic
+  academic regulations](https://www.uvic.ca/calendar/undergrad/index.php#/policy/Sk_0xsM_V?bc=true&bcCurrent=08%20-%20Policy%20on%20Academic%20Integrity&bcGroup=Undergraduate%20Academic%20Regulations&bcItemType=policies)
+ and observe standards of scholarly integrity
+(i.e. no plagiarism or cheating). Therefore, this assignment must be
+taken individually and not with a friend, classmate, or group. You are
+also prohibited from sharing any information about the assignment with
+others. I affirm that I will not give or receive any aid on this assignment 
+and that all work will be my own. **name here**
+
+It is an open question whether or not the endowment effect is an actual feature of human behaviour or is an artifact of subject confusion (about their optimal behaviour when bidding in a a second price auction and asking when facing an unknown reserve price).  This experiment is meant to manipulate behaviour in both of these dimensions. 
+
+Recall that in experiment 3 there were 3 separate parts:
+
+* A second price sealed bid auction where you bid on a mug.
+* A random mug give-away: One person in each group was given a mug.
+* Finally, you stated the minimum that you would be willing to sell a mug back to me (if you were given a mug in part 2).  
+
+The treatments were:
+
+* Whether or not subjects received hints regarding optimal bids and asks: variable ``strategy''.
+* Whether or not people were in small or large groups for the mug give away, which was meant to influence their belief that they would become endowed with a mug: variable ``size''
+  
+
+# (10 marks)
+
+**Why is it in your best interest to bid your true value in a second price sealed bid auction?**
+
+write your answer here.
+
+
+# (10 marks)
+
+**Why is it in your best interest to ask your forgone value when selling at an unknown reserve price?**
+
+write your answer here.
+
+
+# (0 marks)
+
+**Create boxplots for the bids in the second price auction, partitioning the data by the variables `strategy` and `size`.** 
+
+```{r first_chunk}
+first_plot
+```
+
+# (10 marks)
+
+**In general, what do boxplots show us?  In this case, what do the boxplots show us about the bidding behavior across treatments?**
+
+write your answer here.
+
+# (10 marks)
+
+**Create barcharts for the beliefs about winning the mug (variable prob), faceting the data by variables `strategy` and `size`. Hint: use functions geom_bar and facet_grid.**
+
+# (10 marks)
+
+**In general, what do barcharts tell us? Specifically in this case, what do the barcharts tell us about beliefs of winning the mug with regards to the treatments?**
+
+write your answer here.
+
+
+# (10 marks)
+
+**Create boxplots for clarity of instructions, partitioning the data by the variables `strategy` and `size`.**
+
+# (10 marks)
+
+**What do you see above?**
+
+write your answer here.
+
+# (10 marks)
+
+**Create boxplots for the asks, partitioning the data by the variables `strategy` and `size`.**
+
+# (10 marks)
+
+**Create boxplots for the endowment effect (ask-bid), partitioning the data by the variables `strategy` and `size`.**
+
+# (10 marks)
+
+**What do you see above?**
+
+write your answer here.
