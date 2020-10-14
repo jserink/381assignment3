@@ -59,6 +59,11 @@ first_plot
 
 **Create barcharts for the beliefs about winning the mug (variable prob), faceting the data by variables `strategy` and `size`. Hint: use functions geom_bar and facet_grid.**
 
+```{r second_chunk}
+#second_plot
+```
+
+
 # (10 marks)
 
 **In general, what do barcharts tell us? Specifically in this case, what do the barcharts tell us about beliefs of winning the mug with regards to the treatments?**
@@ -66,6 +71,12 @@ first_plot
 # (10 marks)
 
 **Create boxplots for clarity of instructions, partitioning the data by the variables `strategy` and `size`.**
+
+```{r third_chunk}
+#third_plot
+```
+
+
 
 # (10 marks)
 
@@ -75,9 +86,19 @@ first_plot
 
 **Create boxplots for the asks, partitioning the data by the variables `strategy` and `size`.**
 
+```{r fourth_chunk}
+#fourth_plot
+```
+
+
 # (10 marks)
 
 **Create boxplots for the endowment effect (ask-bid), partitioning the data by the variables `strategy` and `size`.**
+
+```{r fifth_chunk}
+#fifth_plot
+```
+
 
 # (10 marks)
 
