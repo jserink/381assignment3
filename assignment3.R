@@ -5,7 +5,11 @@
 rm(list=ls()) #makes sure that your work environment is clean.
 library("tidyverse") #we use functions from this library.
 slash <- ifelse(.Platform$OS.type=="unix", "/", "\\") #The eternal directory battle: Windows vs. *nix
-mydf <- read_csv(paste("publicdata",slash,"wtpvswta1.csv",sep="")) # reads in the data
+
+####################which section?
+section <- 1
+#########################
+mydf <- read_csv(paste("publicdata",section,slash,"wtpvswta",section,".csv",sep="")) # reads in the data
 mydf$strategy <- factor(mydf$strategy,labels=c("control","hints")) # strategy is coded 0/1: instead give it meaningful names.
 mydf$size <- factor(mydf$size,labels=c("small","large")) # size is coded 5/20: give it meaningful names.
 mydf <- mydf%>%

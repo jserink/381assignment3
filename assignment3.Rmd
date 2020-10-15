@@ -1,7 +1,6 @@
 ---
 title: "Assignment 3"
 author: "name and student ID here"
-date: "13/10/2020"
 output: 
   html_document:
     number_sections: true
@@ -12,6 +11,8 @@ knitr::opts_chunk$set(echo = FALSE)
 source("assignment3.R")
 ```
 
+**Your section #: `r paste("0",section,sep="")`**
+
 Students must abide by  [UVic
   academic regulations](https://www.uvic.ca/calendar/undergrad/index.php#/policy/Sk_0xsM_V?bc=true&bcCurrent=08%20-%20Policy%20on%20Academic%20Integrity&bcGroup=Undergraduate%20Academic%20Regulations&bcItemType=policies)
  and observe standards of scholarly integrity
@@ -21,7 +22,7 @@ also prohibited from sharing any information about the assignment with
 others. I affirm that I will not give or receive any aid on this assignment 
 and that all work will be my own. **name here**
 
-It is an open question whether or not the endowment effect is an actual feature of human behaviour or is an artifact of subject confusion (about their optimal behaviour when bidding in a a second price auction and asking when facing an unknown reserve price).  This experiment is meant to manipulate behaviour in both of these dimensions. 
+A big part of environmental economics is estimating peoples willingness to pay for an improvement in environmental quality and/or their willingness to accept for a degradation in environmental quality.  Theoretically these two measures should be very close for small changes for the good in question.  Nevertheless there are countless studies that show that these two measures can be significantly different even for inconsequential i.e. small value goods... like coffee mugs.  One possibility explanation for this divergence is that humans *suffer* from what is known an endowment effect.  I emphasised suffer because this is an irrational behaviour.  The endowment effect, in a nutshell, is that you demand more to give up something than what you are willing to pay for it in the first place.  It is as if possessing a good makes it more valuable to you. In the context of environmental economics, people demand more compensation for a slight decrease in environmental quality than what they are willing to pay for a slight improvement.  It is as if possessing the current level of environmental quality makes it more valuable that what your were willing to pay to get that level of environmental quality in the first place. It is an open question whether or not the endowment effect is an actual feature of human behaviour or is an artifact of subject confusion regarding the mechanisms we use to measure their willingness to pay and willingness to accept. 
 
 Recall that in experiment 3 there were 3 separate parts:
 
@@ -29,11 +30,12 @@ Recall that in experiment 3 there were 3 separate parts:
 * A random mug give-away: One person in each group was given a mug.
 * Finally, you stated the minimum that you would be willing to sell a mug back to me (if you were given a mug in part 2).  
 
-The treatments were:
+This experiment is designed to manipulate both explanations of the endowment effect.  
 
-* Whether or not subjects received hints regarding optimal bids and asks: variable ``strategy''.
-* Whether or not people were in small or large groups for the mug give away, which was meant to influence their belief that they would become endowed with a mug: variable ``size''
-  
+* Hints are provided (treatment `strategy`) to some subjects to see if confusion regarding optimal bidding and asking is causing the endowment effect. 
+
+* The probability of being endowed with the mug is altered (treatment `size`). It seems reasonable that the greater the probability of winning the mug, the greater the attachment the subject would have to the mug, leading to a greater endowment effect.
+
 
 # (10 marks)
 
