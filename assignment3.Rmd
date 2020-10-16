@@ -8,7 +8,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-source("solutions_assignment3.R")
+source("assignment3.R")
 ```
 **Section #: `r paste("0",section,sep="")`**
 
