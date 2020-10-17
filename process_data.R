@@ -14,7 +14,7 @@ class <- read_csv("privatedata/class.csv")
 class <-  class%>%mutate(OrgDefinedId=str_replace(OrgDefinedId,"#",""),
                          Username=str_replace(Username,"#",""),
                          oneid=as.numeric(str_sub(OrgDefinedId,-5)))
-marks <- left_join(class,participants)%>%
+marks <- inner_join(class,participants)%>%
     select(OrgDefinedId,Username,`ex3 Points Grade`,`End-of-Line Indicator`)%>%
     replace_na(list(OrgDefinedId=0,Username=0,ex1=0,`End-of-Line Indicator`=0))
 write_csv(marks,paste("privatedata/marks",section,".csv",sep=""))
