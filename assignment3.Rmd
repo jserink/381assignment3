@@ -2,7 +2,7 @@
 title: "Assignment 3"
 author: "put your name and ID here"
 output: 
-  html_document:
+  word_document:
     number_sections: true
 ---
 
